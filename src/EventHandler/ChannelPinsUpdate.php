@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace FTCBotCore\EventHandler;
 
-class ChannelPinsUpdate extends Message
+class ChannelPinsUpdate
 {
 
     public function __invoke()
