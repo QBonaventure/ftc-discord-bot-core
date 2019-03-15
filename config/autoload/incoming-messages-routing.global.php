@@ -15,6 +15,7 @@ return [
             'CHANNEL_UPDATE' => FTCBotCore\Container\EventHandler\ChannelUpdateFactory::class,
             'CHANNEL_DELETE' => FTCBotCore\Container\EventHandler\ChannelDeleteFactory::class,
             'VOICE_STATE_UPDATE' => FTCBotCore\Container\EventHandler\VoiceStateUpdateFactory::class,
+            'CHANNEL_PINS_UPDATE' => FTCBotCore\Container\EventHandler\ChannelPinsUpdate::class,
         ],
     ],
 ];
